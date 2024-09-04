@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman ingressos</title>
+    <link rel="stylesheet" href="./contato.css" />
+</head>
+<body>
+<header>
+    <img id="logo" src="logo.jpg" />
+    <nav>
+        <ul>
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./contato.html">
+                <li>Contato</li>       
+            </a>
+            <a href="./fotos.html">
+                <li>Fotos</li>
+            </a>
+            <a href="./comentarios.html">
+                <li> Comentarios</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+
+    <div class="contato-container">
+        <div id="content">
+            <form action="formulario">
+                <h1>Fale conosco</h1>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="phone" name="phone" placeholder="Telefone com DDD" required>
+                <textarea id="subject" name="subject" placeholder="Vamos conversar?" required></textarea>
+                <button class="button">ENVIAR</button>
+
+                <input type="hidden" name="redirectTo" value="obrigado.html">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <a href='/'>
+            <img style="object-fit: cover;" id="logo" src="./logo.jpg"/>
+        </a>
+        
+        <span>Todos os direitos reservados &copy;</span>
+        <span>Desenvolvido por: Gabriel Molina</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+            <a href="./contato.css">
+                    <li>Home</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li> 
+                </a>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>
